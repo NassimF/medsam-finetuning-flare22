@@ -536,14 +536,18 @@
 
         <div>
           <div class="media-placeholder" style="margin-bottom:12px;">
-            <strong>[Dice Distribution Plot Placeholder]</strong>
-            Insert your Dice boxplot / distribution figure here.<br>
-            <em>Example file: <code>dice_distribution_medsam_vs_finetuned.png</code></em>
+            <img src="dice_plot.png" 
+       alt="MedSAM Poster Preview"
+       style="width:100%; border-radius:8px; margin-top:8px;">
           </div>
           <div class="media-placeholder">
-            <strong>[NSD Distribution Plot Placeholder]</strong>
-            Insert your NSD distribution or bar plot here.<br>
-            <em>Example file: <code>nsd_distribution_medsam_vs_finetuned.png</code></em>
+           <img src="nsd_plot.png" 
+       alt="MedSAM Poster Preview"
+       style="width:100%; border-radius:8px; margin-top:8px;">
+          </div>
+          <div class="media-placeholder">
+            
+            
           </div>
         </div>
       </div>
@@ -556,17 +560,17 @@
       <div class="qual-grid">
         <div class="qual-item">
           <!-- Replace src with your actual qualitative comparison image -->
-          <!-- <img src="qualitative_case1.png" alt="Qualitative case 1"> -->
+          <img src="gt_vs_default.png" alt="Qualitative case 1"> -->
           <strong>Case 1</strong><br>
           Ground Truth vs. Default MedSAM vs. Fine-Tuned MedSAM.
         </div>
         <div class="qual-item">
-          <!-- <img src="qualitative_case2.png" alt="Qualitative case 2"> -->
+          <img src="joint_mask.png" alt="Qualitative case 2"> -->
           <strong>Case 2</strong><br>
           Improved organ boundaries and reduced leakage.
         </div>
         <div class="qual-item">
-          <!-- <img src="qualitative_case3.png" alt="Qualitative case 3"> -->
+          <img src="default_mask_better.png" alt="Qualitative case 3"> -->
           <strong>Case 3</strong><br>
           Better separation of adjacent organs in low-contrast regions.
         </div>
@@ -637,10 +641,7 @@
   <section id="videos">
     <div class="container">
       <h2>Videos</h2>
-      <p>
-        If you created video demos (e.g., overlay of segmentation masks on CT slices or side-by-side comparisons),
-        you can embed them below.
-      </p>
+      
       <div class="videos-grid">
         <a href="https://github.com/NassimF/medsam-finetuning-flare22/blob/main/ezyZip.mp4">Download demo video</a>
         
@@ -665,8 +666,7 @@
           <!-- If you keep it private for grading, you can mention that here -->
         </div>
         <p style="font-size:0.9rem; color:var(--muted-text); margin-top:8px;">
-          <strong>Note:</strong> Replace the GitHub URL above with your actual repository link. If the repository is private,
-          you can still provide access to the instructor during submission.
+         
         </p>
       </div>
     </div>
